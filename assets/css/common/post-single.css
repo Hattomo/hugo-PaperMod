@@ -388,7 +388,7 @@ h6:hover .anchor {
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb:hover {
-    background: rgba(0, 0, 0, 0.56)
+    background: rgba(124, 124, 124, 1)
 }
 
 .dark .post-content :not(table) ::-webkit-scrollbar-thumb {
@@ -411,6 +411,15 @@ h6:hover .anchor {
 
 .gist table::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, 0.56);
+}
+
+.dark .gist table::-webkit-scrollbar-thumb {
+    border: 2px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.32)
+}
+
+.dark .gist table::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.56)
 }
 
 .post-content table::-webkit-scrollbar-thumb {

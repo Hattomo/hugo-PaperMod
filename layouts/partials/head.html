@@ -77,7 +77,7 @@
 {{- partial "extend_head.html" . -}}
 <!-- Misc -->
 {{- if hugo.IsProduction | or (eq .Site.Params.env "production") }}
-{{- template "_internal/google_analytics_async.html" . }}
+<!-- {{- template "_internal/google_analytics_async.html" . }} google analytics old-->
 {{- template "_internal/google_news.html" . }}
 {{- template "partials/templates/analytics-gtag.html" . }} <!--google analytics 4-->
 {{- template "partials/templates/opengraph.html" . }}

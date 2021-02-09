@@ -60,13 +60,13 @@
 /* Operator */ .chroma .o { color: #f92672 }
 /* OperatorWord */ .chroma .ow { color: #f92672 }
 /* Punctuation */ .chroma .p { color: #111111!important}
-/* Comment */ .chroma .c { color: #75715e }
-/* CommentHashbang */ .chroma .ch { color: #75715e }
-/* CommentMultiline */ .chroma .cm { color: #75715e }
-/* CommentSingle */ .chroma .c1 { color: #75715e }
-/* CommentSpecial */ .chroma .cs { color: #75715e }
-/* CommentPreproc */ .chroma .cp { color: #75715e }
-/* CommentPreprocFile */ .chroma .cpf { color: #75715e }
+/* Comment */ .chroma .c { color: #2C9748 }
+/* CommentHashbang */ .chroma .ch { color: #2C9748 }
+/* CommentMultiline */ .chroma .cm { color: #2C9748 }
+/* CommentSingle */ .chroma .c1 { color: #2C9748 }
+/* CommentSpecial */ .chroma .cs { color: #2C9748 }
+/* CommentPreproc */ .chroma .cp { color: #2C9748 }
+/* CommentPreprocFile */ .chroma .cpf { color: #2C9748 }
 /* Generic */ .chroma .g {  }
 /* GenericDeleted */ .chroma .gd {  }
 /* GenericEmph */ .chroma .ge { font-style: italic }
@@ -143,13 +143,13 @@
 /* Operator */ .dark .chroma .o { color: #f92672 }
 /* OperatorWord */ .dark .chroma .ow { color: #f92672 }
 /* Punctuation */ .dark .chroma .p { color: #eeeeee!important}
-/* Comment */ .dark .chroma .c { color: #75715e }
-/* CommentHashbang */ .dark .chroma .ch { color: #75715e }
-/* CommentMultiline */ .dark .chroma .cm { color: #75715e }
-/* CommentSingle */ .dark .chroma .c1 { color: #75715e }
-/* CommentSpecial */ .dark .chroma .cs { color: #75715e }
-/* CommentPreproc */ .dark .chroma .cp { color: #75715e }
-/* CommentPreprocFile */ .dark .chroma .cpf { color: #75715e }
+/* Comment */ .dark .chroma .c { color: #2C9748 }
+/* CommentHashbang */ .dark .chroma .ch { color: #2C9748 }
+/* CommentMultiline */ .dark .chroma .cm { color: #2C9748 }
+/* CommentSingle */ .dark .chroma .c1 { color: #2C9748 }
+/* CommentSpecial */ .dark .chroma .cs { color: #2C9748 }
+/* CommentPreproc */ .dark .chroma .cp { color: #2C9748 }
+/* CommentPreprocFile */ .dark .chroma .cpf { color: #2C9748 }
 /* Generic */ .dark .chroma .g {  }
 /* GenericDeleted */ .dark .chroma .gd {  }
 /* GenericEmph */ .dark .chroma .ge { font-style: italic }

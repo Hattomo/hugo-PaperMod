@@ -4,6 +4,14 @@
 {{- $scratch.Add "meta" (slice (printf "<span title='%s'>%s</span>" (.Date) (.Date | time.Format (default "January 2, 2006" site.Params.DateFormat)))) }}
 {{- end }}
 
+{{ $time_create:=slice (.Date.Format (default "January 2, 2006" .Site.Params.DateFormat))}}
+{{ $time_lastmodified:=slice (.Lastmod.Format (default "January 2, 2006" .Site.Params.DateFormat))}}
+
+{{- if ne $time_create $time_lastmodified -}}
+{{$last_update:= .Lastmod.Format "January 2, 2006"|printf "%s %s" "&#x21bb;"}}
+{{- $scratch.Add "meta" $last_update}}
+{{- end -}}
+
 {{- if (.Param "ShowReadingTime") -}}
 {{- $scratch.Add "meta" (slice (i18n "read_time" .ReadingTime | default (printf "%d min" .ReadingTime))) }}
 {{- end }}

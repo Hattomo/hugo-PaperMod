@@ -204,8 +204,8 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-family: Menlo, Monaco, 'Courier New', Courier, monospace;
-    font-size: .78em;
+    font-family: "SF Mono", Monaco, Consolas, "Ubuntu Mono", Menlo, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
+    font-size: 0.9em;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px

@@ -393,6 +393,46 @@ h6:hover .anchor {
     user-select: none;
 }
 
+.post-content :not(table) ::-webkit-scrollbar-thumb {
+    border: 2px solid rgba(249, 249, 249, 1.0);
+    background: rgba(192, 192, 192, 1.0)
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb:hover {
+    background: rgba(124, 124, 124, 1)
+}
+
+.dark .post-content :not(table) ::-webkit-scrollbar-thumb {
+    border: 2px solid var(--hljs-bg);
+    background: rgb(113, 113, 117);
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb:hover {
+    background: rgb(163, 163, 165);
+}
+
+.gist table::-webkit-scrollbar-thumb {
+    border: 2px solid rgb(255, 255, 255);
+    background: rgb(173, 173, 173);
+}
+
+.gist table::-webkit-scrollbar-thumb:hover {
+    background: rgb(112, 112, 112);
+}
+
+.dark .gist table::-webkit-scrollbar-thumb {
+    border: 2px solid rgb(255, 255, 255);
+    background: rgba(0, 0, 0, 0.32)
+}
+
+.dark .gist table::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.56)
+}
+
+.post-content table::-webkit-scrollbar-thumb {
+    border-width: 2px;
+}
+
 .paginav {
     display: flex;
     line-height: 30px;

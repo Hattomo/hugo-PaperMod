@@ -65,6 +65,21 @@ body:not(.dark) #sun {
     margin-inline-start: var(--gap);
 }
 
+/*  menu scroll bar for nallow smartphone @Hattomo*/
+ul#menu::-webkit-scrollbar-thumb {
+    background: var(--tertiary);
+    border: 3px solid var(--theme);
+    border-radius: var(--radius)
+}
+
+ul.dark#menu::-webkit-scrollbar-thumb {
+    border: 3px solid var(--code-bg)
+}
+
+ul#menu::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary)
+}
+
 #menu a {
     font-size: 16px;
 }

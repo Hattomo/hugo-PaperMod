@@ -199,7 +199,8 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    font-family: "SF Mono", Monaco, Consolas, "Ubuntu Mono", Menlo, "Liberation Mono", "DejaVu Sans Mono", "Courier New", monospace;
+    font-size: 0.9em;
     line-height: 1.5;
     background: var(--code-bg);
     border-radius: 2px;

@@ -155,7 +155,18 @@
 
 .post-content .highlight:not(table) {
     margin: 10px auto;
-    background: var(--code-block-bg) !important;
+    border-radius: var(--radius);
+}
+
+.dark .post-content pre {
+    margin: 10px auto;
+    background: var(--hljs-bg) !important;
+    border-radius: var(--radius);
+}
+
+.dark .post-content pre {
+    margin: 10px auto;
+    background: var(--hljs-bg) !important;
     border-radius: var(--radius);
     direction: ltr;
 }
@@ -205,6 +216,25 @@
     color: rgb(213, 213, 214);
     background: var(--code-block-bg) !important;
     border-radius: var(--radius);
+    overflow-x: auto
+}
+
+.dark .post-content pre code {
+    margin: auto 4px;
+    padding: 4px 6px;
+    font-size: 0.78em;
+    line-height: 1.5;
+    background: var(--code-bg);
+    border-radius: 2px;
+}
+
+.dark .post-content pre code {
+    display: block;
+    margin: auto 0;
+    color: rgb(213, 213, 214);
+    background: var(--code-bg) !important;
+    border-radius: var(--radius);
+    padding: 10px;
     overflow-x: auto;
     word-break: break-all;
 }

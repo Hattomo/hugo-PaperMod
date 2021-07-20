@@ -387,12 +387,25 @@ h6:hover .anchor {
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb {
+    border: 2px solid rgba(249, 249, 249, 1.0);
+    background: rgba(192, 192, 192, 1.0)
+}
+
+.post-content :not(table) ::-webkit-scrollbar-thumb:hover {
+    background: rgba(0, 0, 0, 0.56)
+}
+
+.dark .post-content :not(table) ::-webkit-scrollbar-thumb {
     border: 2px solid var(--hljs-bg);
     background: rgba(255, 255, 255, 0.32);
 }
 
 .post-content :not(table) ::-webkit-scrollbar-thumb:hover {
     background: rgba(255, 255, 255, 0.56);
+}
+
+.dark .post-content :not(table) ::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.56)
 }
 
 .gist table::-webkit-scrollbar-thumb {

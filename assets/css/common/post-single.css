@@ -158,6 +158,12 @@
     margin: 10px auto;
     background: var(--code-block-bg) !important;
     border-radius: var(--radius);
+}
+
+.dark .post-content pre {
+    margin: 10px auto;
+    background: var(--hljs-bg) !important;
+    border-radius: var(--radius);
     direction: ltr;
 }
 
@@ -206,6 +212,18 @@
     color: rgb(213, 213, 214);
     background: var(--code-block-bg) !important;
     border-radius: var(--radius);
+    background: 0 0;
+    border-radius: 0;
+    overflow-x: auto
+}
+
+.dark .post-content pre code {
+    display: block;
+    margin: auto 0;
+    color: rgba(255, 255, 255, .8);
+    padding: 10px;
+    background: 0 0;
+    border-radius: 0;
     overflow-x: auto;
     word-break: break-all;
 }

@@ -40,7 +40,7 @@ main,
 nav,
 section,
 table {
-    display: block;
+    display: flex;
 }
 
 h1,
